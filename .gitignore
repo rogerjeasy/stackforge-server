@@ -1,0 +1,118 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Poetry
+poetry.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.fleet/
+*.code-workspace
+
+# Testing
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+*.cover
+.hypothesis/
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Storage
+storage/generated/*
+storage/temp/*
+storage/templates/*
+!storage/generated/.gitkeep
+!storage/temp/.gitkeep
+!storage/templates/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Redis dump
+dump.rdb
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Cache
+.cache/
+.ruff_cache/
+
+# Google Cloud credentials
+*.json
+!requirements.json
+serviceAccountKey.json
